@@ -3,8 +3,10 @@ $(document).ready(function(){
         $("button").click(function() {
       $("#like").html("You like this project!");
     });
-    
-    
+  
+  $(window).scroll(function() {
+      console.log($(this));
+  })
     
     
 });

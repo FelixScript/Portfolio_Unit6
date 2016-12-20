@@ -1,20 +1,26 @@
     header {
       text-align: center;
-      background: url("images/banner.jpg");
+      background: url("https://tctechcrunch2011.files.wordpress.com/2015/04/codecode.jpg");
       background-size: cover;
       color: white;
     }
     .nav {
       color: white;
+      
+    }
+    .navlist{
+      width: 100%;
+      position:fixed;
+      top: 338px;
     }
     h1 {
-      font-size: 70px;
+      font-size: 50px;
+      font-family:"proxima-nova",sans-serif;
     }
-    img {
-      margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;
+    .seachbar{
+      float: right;
     }
+    
     ul {
       padding: 10px;
       background: rgba(0,0,0,0.5);
@@ -23,11 +29,58 @@
       display: inline;
       padding: 0px 10px 0px 10px;
     }
-    div{
-      max-width: 500px;
+    .Tab1{
+      max-width: 900px;
       padding: 20px;
       margin: 0 auto;
     }
+    p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:border-box;
+    }  
+    img.HtmlPage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    }
+    
+    h2.project-title{
+      font-size: 30px
+      
+    }
+    img.PTag{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    }
+    body{
+     background-color:  #f5f5f0;
+    }
+    
+    input[type=text] {
+    width: 20%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 50%;
+}
+  img.Ads{
+border-radius: 0;
+-moz-appearance:none; webkit-appearance: none;
+  
+}
+      
+ 
     @media (max-width: 500px) {
       h1 {
         font-size: 36px;
@@ -37,4 +90,6 @@
         padding: 5px;
         display: block;
       }
+      
+
     }
